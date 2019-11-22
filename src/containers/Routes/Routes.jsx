@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
+import { Router, Redirect } from "@reach/router";
 import Login from "../Login";
 import Homepage from "../Homepage";
-import { Router } from "@reach/router";
-import "./App.module.scss";
 
-class App extends React.Component {
+class Routes extends Component {
   render() {
     return (
       <Router>
+        <Redirect noThrow from="/" to="/homepage" />
         <Login path="/" />
         <Homepage path="/homepage" />
       </Router>
@@ -15,4 +15,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Routes;
