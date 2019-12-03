@@ -1,3 +1,13 @@
+To Do List — November 2019 (_nology)
+
+DESCRIPTION: Create an application that allows a user to create their own personal to do list. They should be able to create, update, delete, mark as done any item on their to-do list. Users can also filter their list via a text search or selecting to see only done or undone items. They should be able to access this to-do list from their phone or computer. 
+
+REQUIREMENTS: Create a new react app using create-react-app. Host this application on firebase. Use your custom domain name e.g todo.mydomain.com. Users can log in using their gmail account.
+
+RULES: You will present your application on Monday 25th November at 8:30am. You need to have over 90% unit test code coverage
+
+EXTENSION: You can add due dates to to-do items. The to-do items should be colour coded according to their due dates
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
